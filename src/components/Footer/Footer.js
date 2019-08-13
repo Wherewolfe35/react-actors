@@ -4,7 +4,9 @@ class Footer extends Component {
   state = {  }
   render() { 
     return ( 
-      <p style-background-color="black">© React Actors</p>
+      <div style={{ backgroundColor: 'black', color: 'white' }}>
+        <p>© React Actors</p>
+      </div>
      );
   }
 }
